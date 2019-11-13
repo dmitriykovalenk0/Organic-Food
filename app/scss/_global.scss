@@ -45,4 +45,9 @@ figure {
 .container {
   max-width: 1170px;
   margin: 0 auto;
+
+  &--max {
+    max-width: 1380px;
+    margin: 0 auto;
+  }
 }
