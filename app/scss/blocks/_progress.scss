@@ -1,0 +1,39 @@
+.progress {
+  margin: 150px 0;
+}
+
+.progress__items {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress__item {
+  display: flex;
+
+  img {
+    align-self: flex-start;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-family: Raleway;
+  }
+
+  &-text--extrabold {
+    color: #2e211d;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+  }
+
+  &-text--bold {
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
