@@ -51,3 +51,32 @@ figure {
     margin: 0 auto;
   }
 }
+
+.hero {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 556px;
+
+  .title {
+    font-family: Raleway;
+    color: #333333;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+
+    span {
+      font-weight: 900;
+    }
+  }
+
+  .posttitle {
+    padding-top: 5px;
+
+    color: #b3b3b3;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+}
