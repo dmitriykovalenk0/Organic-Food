@@ -1,0 +1,21 @@
+.cakes {
+  min-height: 684px;
+  background: url(../img/tastycakes-img.png) no-repeat center/cover;
+
+  &__content {
+    display: flex;
+
+    &-title {
+      margin-top: 68px;
+      color: #ccaf8a;
+      font-size: 230px;
+      line-height: 180px;
+    }
+
+    img {
+      margin: 34px 100px 0 0;
+      width: 195px;
+      height: 198px;
+    }
+  }
+}
