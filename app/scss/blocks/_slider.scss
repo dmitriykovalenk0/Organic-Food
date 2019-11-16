@@ -1,0 +1,85 @@
+.feedback__slider {
+  position: relative;
+  max-width: 1068px;
+  overflow: hidden;
+
+  &-item {
+    margin-top: 55px;
+    padding-left: 84px;
+  }
+
+  &-message {
+
+    font-family: "Times New Roman";
+
+    color: $white;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 30px;
+
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 20px;
+      left: -91px;
+
+      content: '“';
+      color: #fcdb5a;
+      font-size: 100px;
+      line-height: 30px;
+    }
+  }
+
+  &-userinfo {
+    margin-top: 40px;
+    display: flex;
+
+    figcaption {
+      align-self: center;
+      margin-left: 22px;
+
+      color: $white;
+      font-family: Raleway;
+      line-height: 23px;
+
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.my-dots {
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+
+  li {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+  }
+
+  button {
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    background: transparent;
+    outline: none;
+
+    &::before {
+      content: url(../img/slider-dots.png);
+    }
+  }
+}
+
+.slick-active {
+
+  button {
+    &::before {
+      content: url(../img/slider-active-dots.png);
+    }
+  }
+}
